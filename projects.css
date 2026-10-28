@@ -1,0 +1,54 @@
+body{
+    background: pink;
+    color: black;
+}
+#logo img {
+  height: 50px;
+  display: block;
+}
+nav {
+ display: flex;
+ justify-content: space-between;
+align-items: center;
+      padding: 18px 6vw;
+border-bottom: 1px solid var(--line);
+position: sticky;
+      top: 0;
+background: var(--paper);
+z-index: 10;
+}
+#navigation {
+  font-size: 40px;
+}
+
+#navigation nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 80px;
+  font-size: 40px;
+}
+video {
+  width:500;
+  height:500;
+  padding: 0 3rem;
+}
+p {
+  font-size:50px;
+  font-weight:bolder;
+  color: black;
+  padding:18px 6vw;
+  position: sticky;
+}
+#link {
+  text-decoration-line: none;
+  font-weight:bolder;
+  position: sticky;
+}
+a{
+  color: black;
+}
+a:hover {
+  background-color: aqua;
+  color: pink;
+  font-size:70px;
+}

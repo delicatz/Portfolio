@@ -1,0 +1,133 @@
+body {
+  background-color: pink;
+  color: black;
+  margin: 0;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
+}
+
+#logo img {
+  height: 50px;
+  display: block;
+}
+nav {
+ display: flex;
+ justify-content: space-between;
+align-items: center;
+      padding: 18px 6vw;
+border-bottom: 1px solid var(--line);
+position: sticky;
+      top: 0;
+background: var(--paper);
+z-index: 10;
+}
+
+#navigation {
+  font-size: 40px;
+}
+
+#navigation nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 80px;
+  font-size: 40px;
+}
+
+
+.intro {
+  text-align: center;
+  font-weight: bolder;
+}
+
+
+.bio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px;
+  gap: 40px;
+  font-size: 30px;
+}
+#twocolleft {
+  width: 40%;
+  text-align: left;
+}
+
+#twocolright {
+  text-align: right;
+}
+
+#subheader {
+  font-size: 80px;
+  font-weight: bolder;
+  color:aqua;
+}
+/* watch video on making the photo more fuller */
+#me {
+    width: 100%;
+    height: 100%;
+}
+button {
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  border-color:pink;
+  border: larger;
+  font-size:larger;
+  padding: 18px 6vw;
+  justify-content: space-between;
+}
+.top:hover {
+  text-decoration: underline;
+  font-size: x-large;
+  font-weight: bolder;
+  background-color:black;
+}
+#Build {
+  text-align: center;
+  padding: 18px 6vw;
+  justify-content: center;
+  color:aqua;
+}
+#Build-para {
+  text-align: center;
+  padding: 18px 6vw;
+  justify-content: center;
+  color:aqua;
+  font-size: larger;
+}
+#email:hover {
+  text-decoration: underline;
+  font-size: 70px;
+  font-weight: bolder;
+  background-color:aqua;
+}
+.contact {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.contact img {
+  width: 200px;
+  height:auto;
+}
+#phone:hover {
+  text-decoration: underline;
+  font-size: 70px;
+  font-weight: bolder;
+  background-color:aqua;
+}
+#git:hover {
+  text-decoration: underline;
+  font-size: 70px;
+  font-weight: bolder;
+  background-color:aqua;
+}
